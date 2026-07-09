@@ -5,12 +5,11 @@ Detective Investigation Game !!
   Investigate cases, analyze evidence, and uncover the truth!
 </p>
 
- About The Project
-**Detective Investigation Game** is an interactive console-based detective game developed using **C# and .NET**.
+---
 
 The player takes the role of a detective who investigates a mysterious case by examining evidence, reviewing suspects, analyzing information, and making the final accusation.
 
-
+---
 
 Features..
 - Case investigation system
