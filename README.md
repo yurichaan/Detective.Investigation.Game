@@ -34,6 +34,13 @@ How to Run..
 3. Build and run the application
 
 
+Software Engineering Practices..
+This project was developed following software engineering principles, including:
+- Object-Oriented Programming (OOP)
+- SOLID Principles
+- Clean Code Practices
+- Design Patterns for better structure and maintainability
+
 Developer
 
 - Yara Aldhwihi
