@@ -44,7 +44,7 @@ How to Run..
 1. Clone the repository
 
 ```
-git clone YOUR_REPOSITORY_LINK
+git clone https://github.com/yurichaan/Detective.Investigation.Game
 ```
 
 2. Open the project using:
