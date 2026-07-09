@@ -1,7 +1,16 @@
 Detective Investigation Game !!
 
-A console-based detective investigation game developed using C#.
-The player takes the role of a detective who investigates a mysterious case by analyzing evidence, reviewing suspects, and making the final accusation.
+<p align="center">
+  <b>A C# Console-Based Detective Game</b><br>
+  Investigate cases, analyze evidence, and uncover the truth!
+</p>
+
+ About The Project
+**Detective Investigation Game** is an interactive console-based detective game developed using **C# and .NET**.
+
+The player takes the role of a detective who investigates a mysterious case by examining evidence, reviewing suspects, analyzing information, and making the final accusation.
+
+
 
 Features..
 - Case investigation system
@@ -12,12 +21,15 @@ Features..
 - Colored console interface with ASCII Art
 
 
-Technologies..
-- C#
-- .NET Console Application
-- Object-Oriented Programming (OOP)
-- Design Patterns
+Technologies Used
 
+| Technology | Usage |
+|---|---|
+| C# | Main Programming Language |
+| .NET Console Application | Application Framework |
+| OOP | Object-Oriented Design |
+| SOLID | Software Design Principles |
+| Design Patterns | Code Architecture |
 
  Screenshots..
 
@@ -27,11 +39,57 @@ Technologies..
 <img width="391" height="274" alt="Screenshot 2026-07-09 212437" src="https://github.com/user-attachments/assets/72354cc4-f72e-4607-a38e-f6bf2955894d" />
 
 
+DetectiveInvestigationSystem
+│
+├── 📁 Factories
+│   ├── CaseFactory.cs
+│   └── ICaseFactory.cs
+│
+├── 📁 Interfaces
+│   └── IInvestigationStrategy.cs
+│
+├── 📁 Models
+│   ├── Case.cs
+│   ├── Evidence.cs
+│   ├── Notebook.cs
+│   ├── Person.cs
+│   ├── Suspect.cs
+│   └── Victim.cs
+│
+├── 📁 Services
+│   ├── CaseService.cs
+│   ├── EvidenceService.cs
+│   ├── GameService.cs
+│   └── SuspectService.cs
+│
+├── 📁 Strategies
+│   ├── EvidenceStrategy.cs
+│   ├── SuspectStrategy.cs
+│   └── VictimStrategy.cs
+│
+├── 📁 Properties
+│
+├── Program.cs
+└── App.config
+
+
 
 How to Run..
 1. Clone the repository
-2. Open the project in Visual Studio
-3. Build and run the application
+
+```
+git clone YOUR_REPOSITORY_LINK
+```
+
+2. Open the project using:
+
+```
+Visual Studio
+```
+
+3. Build and Run the application.
+
+---
 
 
 Software Engineering Practices..
