@@ -20,7 +20,7 @@ Features..
 - Accusation system
 - Colored console interface with ASCII Art
 
-
+---
 Technologies Used
 
 | Technology | Usage |
@@ -31,6 +31,7 @@ Technologies Used
 | SOLID | Software Design Principles |
 | Design Patterns | Code Architecture |
 
+---
  Screenshots..
 
  
@@ -38,41 +39,7 @@ Technologies Used
 <img width="496" height="416" alt="Screenshot 2026-07-09 212421" src="https://github.com/user-attachments/assets/2f3d2516-bbd9-46c9-8c8c-05f410d8b130" />
 <img width="391" height="274" alt="Screenshot 2026-07-09 212437" src="https://github.com/user-attachments/assets/72354cc4-f72e-4607-a38e-f6bf2955894d" />
 
-
-DetectiveInvestigationSystem
-│
-├── 📁 Factories
-│   ├── CaseFactory.cs
-│   └── ICaseFactory.cs
-│
-├── 📁 Interfaces
-│   └── IInvestigationStrategy.cs
-│
-├── 📁 Models
-│   ├── Case.cs
-│   ├── Evidence.cs
-│   ├── Notebook.cs
-│   ├── Person.cs
-│   ├── Suspect.cs
-│   └── Victim.cs
-│
-├── 📁 Services
-│   ├── CaseService.cs
-│   ├── EvidenceService.cs
-│   ├── GameService.cs
-│   └── SuspectService.cs
-│
-├── 📁 Strategies
-│   ├── EvidenceStrategy.cs
-│   ├── SuspectStrategy.cs
-│   └── VictimStrategy.cs
-│
-├── 📁 Properties
-│
-├── Program.cs
-└── App.config
-
-
+---
 
 How to Run..
 1. Clone the repository
@@ -98,6 +65,7 @@ This project was developed following software engineering principles, including:
 - SOLID Principles
 - Clean Code Practices
 - Design Patterns for better structure and maintainability
+---
 
 Developer
 
